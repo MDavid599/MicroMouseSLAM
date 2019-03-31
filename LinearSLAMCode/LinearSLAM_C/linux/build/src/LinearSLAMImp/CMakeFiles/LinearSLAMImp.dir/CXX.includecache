@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michael/MicroMouseSLAM/LinearSLAMCode/LinearSLAM_C/linux/src/LinearSLAMImp/LinearSLAMImp.cpp
+LinearSLAMImp.h
+/home/michael/MicroMouseSLAM/LinearSLAMCode/LinearSLAM_C/linux/src/LinearSLAMImp/LinearSLAMImp.h
+
+/home/michael/MicroMouseSLAM/LinearSLAMCode/LinearSLAM_C/linux/src/LinearSLAMImp/LinearSLAMImp.h
+suitesparse/cholmod.h
+/home/michael/MicroMouseSLAM/LinearSLAMCode/LinearSLAM_C/linux/src/LinearSLAMImp/suitesparse/cholmod.h
+stdio.h
+-
+stdlib.h
+-
+string
+-
+string.h
+-
+math.h
+-
+float.h
+-
+time.h
+-
+vector
+-
+map
+-
+set
+-
+algorithm
+-
+

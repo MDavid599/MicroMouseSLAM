@@ -1,0 +1,2 @@
+/usr/local/include/LinearSLAM/config.h
+/usr/local/bin/LinearSLAM

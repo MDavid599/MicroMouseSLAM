@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -W -O3 -DNDEBUG  -rdynamic CMakeFiles/LinearSLAM.dir/LinearSLAM.cpp.o  -o ../../../bin/LinearSLAM ../../../lib/libLinearSLAMImp.a -lcholmod -lamd -lcolamd -lcamd -lccolamd -lblas -llapack 
