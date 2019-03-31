@@ -1,0 +1,18 @@
+#ifndef LinearSLAM_CONFIG_H
+#define LinearSLAM_CONFIG_H
+
+#cmakedefine LinearSLAM_SHARED_LIBS 1
+#cmakedefine LinearSLAM_LGPL_SHARED_LIBS 1
+
+// available sparse matrix libraries
+#cmakedefine LinearSLAM_HAVE_CHOLMOD 1
+
+#cmakedefine LinearSLAM_CXX_COMPILER "@LinearSLAM_CXX_COMPILER@"
+
+// give a warning if Eigen defaults to row-major matrices.
+// We internally assume column-major matrices throughout the code.
+#ifdef EIGEN_DEFAULT_TO_ROW_MAJOR
+#  error "LinearSLAM requires column major Eigen matrices (see http://eigen.tuxfamily.org/bz/show_bug.cgi?id=422)"
+#endif
+
+#endif
